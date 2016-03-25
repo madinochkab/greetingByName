@@ -11,9 +11,14 @@ public class farewell {
 
 		System.out.println("Could I please get your name?");
 	
-		name = scanner.nextLine();
-		System.out.println("I am excited to learn more about you "+ name + "!");
-		System.out.println("bye! "+name);
+		for (int i=0; i<5; i++){
+			name = scanner.nextLine();
+			System.out.println("Could I please get your name?");
+			System.out.println("I am excited to learn more about you "+ name + "!");
+			System.out.println("bye! "+name);
+			
+		}
+	
 		
 		
 		System.out.println("\nThanks you for using the SQA Greeting Application!");
